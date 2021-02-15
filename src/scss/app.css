@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  background: #52534f;
+  padding: 10px 0 50px 0;
+}
+
+.root {
+  margin-top: 30px;
+  background: #9ea097;
+  border-radius: 5px;
+  padding: 30px;
+}
+
+.info {
+  background: rgba(224, 224, 218, 0.336);
+  padding: 15px;
+  border-radius: 5px;
+  margin-top: 10px;
+  color: white;
+}
+
+fieldset {
+  border-radius: 10px !important;
+  overflow: hidden;
+}
+
+fieldset input {
+  background: rgba(114, 113, 52, 0.089);
+  height: 40px;
+  border: 0;
+  border-bottom: 3px solid rgba(0, 0, 0, 0.425);
+  border-radius: 5px;
+  outline: red;
+  margin: 5px 0;
+  color: white;
+  font-size: 1.2rem;
+}
+
+fieldset input::-webkit-input-placeholder {
+  color: white;
+  opacity: .5;
+}
+
+fieldset input:-ms-input-placeholder {
+  color: white;
+  opacity: .5;
+}
+
+fieldset input::-ms-input-placeholder {
+  color: white;
+  opacity: .5;
+}
+
+fieldset input::placeholder {
+  color: white;
+  opacity: .5;
+}
+
+.absolute {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+/*# sourceMappingURL=app.css.map */
