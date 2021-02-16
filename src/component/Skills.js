@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import Inputs from './Inputs'
 
 export class Education extends Component {
-  info = ['skill name'];
+  info = ['skill'];
   type = ['text']
   
     state = {
@@ -26,10 +26,10 @@ export class Education extends Component {
       <div className='container col-12'>
 
         <div className="col-12 row-3">
-        <button className='offset-1 btn btn-danger col-4 my-3 dropdown-toggle disabled'>Personal Details</button>
+        <button className='offset-1 btn btn-danger col-4 my-3 dropdown-toggle disabled'>Personal Skill</button>
           <button 
           onClick={()=>{this.setState({modal: [...this.state.modal,edu]})}}
-          className='btn btn-info ml-2' >Add Experience</button>
+          className='btn btn-info ml-2' >Add Skill</button>
         </div>
 
         <div className='d-flex flex-wrap info'>

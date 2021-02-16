@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import Inputs from './Inputs'
 
 export class Experienc extends Component {
-  info = ['company name','position','task','from','to'];
+  info = ['company','position','task','from','to'];
   type = ['text','text','text','date','date']
 
   state = {

@@ -22,7 +22,6 @@ body{
   border-radius: 5px;
   margin-top: 10px;
   color: white;
-//  display: none !important;
 }
 
 fieldset{
@@ -35,9 +34,8 @@ fieldset{
     border-bottom: 3px solid rgba(0, 0, 0, 0.425);
     border-radius: 5px;
     outline: red;
-    margin: 5px 0;
     color: white;
-    font-size: 1.2rem;
+    font-size: 1rem;
     &::placeholder{
       color: white;
       opacity: .5;
